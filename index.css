@@ -1,0 +1,102 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+
+.currencyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  height: 500px;
+  background: #FAF9F9;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4)
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  background: #1B4332;
+  
+}
+
+.logo {
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding: 0 0 0 4rem;
+}
+
+.current {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding: 0 40px 0 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 350px;
+}
+
+.element {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.label {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.input {
+  margin: 3rem 0 0 0;
+}
+
+.currencySelect {
+  margin: 0 0 0 10px;
+}
+
+@media(max-width: 1110px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
+  .current {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .element {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
